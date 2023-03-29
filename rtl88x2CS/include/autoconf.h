@@ -163,7 +163,8 @@
 /*#define CONFIG_PATCH_JOIN_WRONG_CHANNEL*/
 
 #ifdef CONFIG_RTW_NAPI
-#define CONFIG_RTW_NAPI_DYNAMIC
+//CONFIG_RTW_NAPI_DYNAMIC may be make device crash
+//#define CONFIG_RTW_NAPI_DYNAMIC
 #define CONFIG_RTW_NAPI_V2
 #endif
 
